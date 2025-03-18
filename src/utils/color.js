@@ -4,6 +4,7 @@ export const colors = {
     secondary: '#5299D3',     // Lighter marine blue for secondary elements
     background: '#0B1629',    // Dark navy blue, inspired by deep-sea depths
     backgroundSecondary: '#070F1D',
+    backgroundHover: '091325',
     text: '#E1F1FF',         // Soft white-blue for high contrast and readability
     hover: '#16C1A0',        // Bioluminescent teal for interactive elements
     border: '#1F3555',       // Deep-sea blue-gray for borders and dividers

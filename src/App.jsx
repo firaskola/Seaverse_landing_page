@@ -1,12 +1,15 @@
+// src/App.jsx
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css';
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Services from "./pages/Services";
 import Contact from "./pages/Contact";
-import Projects from "./pages/Projects";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Research from "./pages/Research"; // Import the Research component
+import Technology from "./pages/Technology";
+// src/App.jsx
+import ResearchDetail from "./components/Research/ResearchDetail"; // Add this import
 
 function App() {
   return (
@@ -16,8 +19,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/projects" element={<Projects />} />
+          <Route path="/research" element={<Research />} /> {/* Use Research component */}
+          <Route path="/research/:id" element={<ResearchDetail />} />
+          <Route path="/technology" element={<Technology />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
