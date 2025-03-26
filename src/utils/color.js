@@ -1,4 +1,4 @@
-// src/constants/colors.js
+// src/utils/color.js
 export const colors = {
     primary: '#2E86AB',       // Deep ocean blue for primary actions
     secondary: '#5299D3',     // Lighter marine blue for secondary elements

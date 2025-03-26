@@ -4,7 +4,7 @@ import OurMission from '../components/OurMission';
 import BlogSection from '../components/BlogSection';
 import CurrentProjects from '../components/CurrentProjects';
 import WhyUs from '../components/WhyUs';
-import ContactUs from '../components/contactUs';
+import ContactUs from '../components/ContactUs';
 import Testimonial from '../components/Testimonail';
 import BusinessAndCollaboration from '../components/Colaborations';
 import ProductsSection from '../components/ProductsSection';
